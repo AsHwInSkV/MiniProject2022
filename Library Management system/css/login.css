@@ -1,0 +1,39 @@
+/* Header style */
+h1{
+    text-shadow: 3px 1px 2px rgb(99, 97, 97);
+    color: rgb(70, 70, 70);
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* form styles */
+.fill{
+    color: rgb(70, 70, 70);
+    text-align:center ;
+    cursor: auto;
+}
+input[type="text"]{
+    border-radius: 5px;
+    border: none;
+    border-color: rgb(211, 214, 218);
+    padding: 5px 10px;
+    box-shadow: 3px 1px 2px rgb(99, 97, 97);
+}
+input[type="password"]{
+    border-radius: 5px;
+    border: none;
+    border-color: rgb(211, 214, 218);
+    padding: 5px 10px;
+    box-shadow: 3px 1px 2px rgb(99, 97, 97);
+}
+input[type="button"]{
+    border-radius: 5px;
+    background-color: rgb(31, 138, 231);
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    margin: 5px;
+}
+input[type="button"]:hover{
+    background-color: rgb(100, 177, 244);
+    cursor: pointer;
+}
