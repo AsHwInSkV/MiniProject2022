@@ -1,0 +1,86 @@
+header h1{
+    padding: 12px;
+    text-align: center;
+    color: rgb(250, 245, 245);
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 3px 1px 2px rgb(27, 25, 25);
+}
+body{
+    background-color:  rgba(144, 193, 233, 0.902);;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    float: left;
+}
+nav{
+    border-radius: 5px;
+    background-color: rgb(11, 155, 216);
+    overflow: hidden;
+}
+nav a:hover{
+    color: black;
+}
+section{
+    padding: 0px;
+    margin: 0px;
+    width: 50%;
+    border: none;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+form{
+    padding: 12px 0px;
+}
+input[type="text"],input[type="password"]{
+    padding: 8px 50px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    border: none;
+
+}
+input[type="submit"]{
+    padding: 3px 20px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(31, 138, 231);
+
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color:  rgb(100, 177, 244);
+}
+
+.adminid{
+    display: inline-block;
+    margin: 0px 200px;
+}
+.name{
+    display: inline-block;
+    margin: 1px 210px;
+}
+.username{
+    display: inline-block;
+    margin: 1px 210px;
+}
+.password{
+    display: inline-block;
+    margin: 1px 210px;
+}
+.confirmpassword{
+    display: inline-block;
+    margin: 1px 210px;
+}
+.submit{
+    display: inline-block;
+    margin: 1px 210px;
+}
+
+.active{
+    color: black;
+}
