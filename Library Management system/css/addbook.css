@@ -1,0 +1,45 @@
+header h1{
+    padding: 12px;
+    text-align: center;
+    color: rgb(250, 245, 245);
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 3px 1px 2px rgb(27, 25, 25);
+}
+body{
+    background-color:  rgba(144, 193, 233, 0.902);
+}
+.second{
+    text-align: right;
+    text-decoration:underline;
+    
+
+}
+.inputs{
+    text-align: right;
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    float: left;
+}
+nav{
+    border-radius: 5px;
+    background-color: rgb(11, 155, 216);
+    overflow: hidden;
+}
+nav a:hover{
+    color: black;
+}
+section{
+    padding: 0px;
+    margin: 0px;
+    width: 50%;
+    border: none;
+}
+input[type="text"],input[type="number"],input[type="select"],input[type="textfield"]{
+    border: none;
+    border-radius: 5px;
+}
