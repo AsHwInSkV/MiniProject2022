@@ -1,3 +1,6 @@
+<?php
+    include('db_connect.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,20 +15,22 @@
     <title>CSE Department Library Management Sysytem</title>
 </head>
 <body style="background-color:rgba(144, 193, 233, 0.902);">
-    <form action="">
+<div id = "frm">  
+    <h1>Login </h1>
+    <form name='f1'action="authentication.php"  method="POST">
         <br><br><br><br><br>
-        <h1>Login Form</h1>
         <span class ="fill">
         <p>Username *</p>
         <p><input type="text" name="username" id="username" required size="30" ></p>
         <P>Password *</P>
-        <p><input type="password" name="password" id="password" required size="30"></p>
-        <p><input type="button" value="Login"></p>
+        <p><input type="password" name="password" id="passwords" required size="30"></p>
+        <p><input type="submit" id="button" value="Login"/></p>
         <p><hr width="290cm"></p>
         <h5><i style="font-size:10px" class="fa">&#xf02d;</i> LBS COLLEGE OF ENGINEERING KASARAGOD</h5>
         <h6>&copy;2022 Library Management System</h6>
         </span>
     </form>
     <h1></h1>
+    
 </body>
 </html>
