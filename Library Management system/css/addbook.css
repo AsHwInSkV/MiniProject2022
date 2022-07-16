@@ -43,3 +43,6 @@ input[type="text"],input[type="number"],input[type="select"],input[type="textfie
     border: none;
     border-radius: 5px;
 }
+.active{
+    color: black;
+}

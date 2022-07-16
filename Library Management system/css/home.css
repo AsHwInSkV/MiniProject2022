@@ -32,3 +32,6 @@ section{
 .knimbus{
     border-radius: 5px;
 }
+.active{
+    color: black;
+}

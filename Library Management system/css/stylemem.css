@@ -55,4 +55,8 @@ select{
     border-radius: 2px;
     background-color:  rgba(185, 209, 227, 0.902);;
 }
+.active{
+    color: black;
+}
+
     
