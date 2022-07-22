@@ -43,3 +43,21 @@ input[type="submit"]{
 .active{
     color: black;
 }
+table th{
+    border-style: ridge;
+    padding: 5px 50px;
+}
+.table{
+    border: 2px solid black;
+    display: block;
+    width: 676px;
+    margin: 82px 300px;
+}
+th{
+    padding: 2px 30px;
+} 
+table td{
+    border-style: ridge;
+    padding: 5px 30px;
+    overflow: scroll;
+}

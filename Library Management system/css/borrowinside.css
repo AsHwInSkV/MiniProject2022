@@ -6,7 +6,8 @@ header h1{
     text-shadow: 3px 1px 2px rgb(27, 25, 25);
 }
 body{
-    background-color:  rgba(144, 193, 233, 0.902);;
+    background-color:  rgba(144, 193, 233, 0.902);
+    font-family: 'Roboto Condensed', sans-serif;
 }
 nav a{
     text-decoration: none;
@@ -29,35 +30,7 @@ section{
     width: 50%;
     border: none;
 }
-input[type="submit"]{
-    padding: 5px 3px;
-    margin: 5px 5px;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(31, 138, 231);
-    position: absolute;
-    top: 180px;
-    right: 20px;
 
-}
 .active{
     color: black;
-}
-table th{
-    border-style: ridge;
-    padding: 5px 49px;
-}
-.table{
-    border: 2px solid black;
-    display: block;
-    width: 1260px;
-    margin: 82px 4px;
-}
-th{
-    padding: 2px 30px;
-} 
-table td{
-    border-style: ridge;
-    padding: 5px 30px;
-    overflow: scroll;
 }

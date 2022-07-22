@@ -44,3 +44,21 @@ input[type="submit"]:hover{
     cursor: pointer;
     background-color: rgb(100, 177, 244);
 }
+table th{
+    border-style: ridge;
+    padding: 5px 25px;
+}
+.table{
+    border: 2px solid black;
+    display: block;
+    width: 1177px;
+    margin: 82px 25px;
+}
+th{
+    padding: 2px 30px;
+} 
+table td{
+    border-style: ridge;
+    padding: 5px 30px;
+    overflow: scroll;
+}

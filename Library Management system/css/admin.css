@@ -47,3 +47,21 @@ input[type="submit"]:hover{
 .active{
     color: black;
 }
+table th{
+    border-style: ridge;
+    padding: 5px 30px;
+}
+.table{
+    border: 2px solid black;
+    display: block;
+    width: 632px;
+    margin: 82px 300px;
+}
+th{
+    padding: 2px 33px;
+} 
+table td{
+    border-style: ridge;
+    padding: 2px 33px;
+    overflow: scroll;
+}
