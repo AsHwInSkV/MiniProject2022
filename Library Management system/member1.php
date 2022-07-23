@@ -26,10 +26,44 @@
         </nav>
     </header>
     <form action="addmember.php"  method="POST">
-        <input type="submit" name="submit" value="+Add Member">
-    </form>
+    <input type="submit" name="submit" value="+Add Member">
+</form >
     <section class="table">
-       
+        <table>
+            <thead>
+                <th>MemberId</th>
+                <th>CollegeId</th>
+                <th>Name</th>
+                <th>Contact</th>
+                <th>Semester</th>
+                <th>Gender</th>
+                <th>Type</th>
+                <th>Department</th>
+                <th>Operations</th>
+            </thead>
+            <tbody>
+            
+            </tbody>
+        
+    <?php   
+          $result=mysqli_query($conn,"select * from member_registration order by member_id asc");
+        while($res=mysqli_fetch_array($result))
+        {
+            echo '<tr>';
+            echo '<td>'.$res['member_id'].'</td>';
+            echo '<td>'.$res['college_id'].'</td>';
+            echo '<td>'.$res['name'].'</td>';
+            echo '<td>'.$res['contact'].'</td>';
+            echo '<td>'.$res['semester'].'</td>';
+            echo '<td>'.$res['Gender'].'</td>';
+            echo '<td>'.$res['type'].'</td>';
+            echo '<td>'.$res['dept'].'</td>';
+             echo '</tr>';
+
+         }
+
+     ?>
+        </table>
 
     </section>
 </body>
