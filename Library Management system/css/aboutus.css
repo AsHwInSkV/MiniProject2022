@@ -101,22 +101,27 @@ border: 2px solid black;
 .photo1 img{
     width: 100%;
     height: 62%;
-    border-radius: 50%;
+    margin: 7px 0px;
+    border-radius: 5%;  
+
 }
 .photo2 img{
     width: 100%;
     height: 62%;
-    border-radius: 50%;
+    margin: 7px 0px;
+    border-radius: 5%;
 }
 .photo3 img{
     width: 100%;
     height: 62%;
-    border-radius: 50%;
+    margin: 7px 0px;
+    border-radius: 5%;
 }
 .photo4 img{
     width: 100%;
     height: 62%;
-    border-radius: 50%;
+    margin: 7px 0px;
+    border-radius: 5%;
 }
 p{
     margin: 0px;
