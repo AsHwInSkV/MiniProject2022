@@ -34,59 +34,60 @@ section{
 .active{
     color: black;
 }
+.table1{
+    border: 2px solid black;
+    height: 130px;
+    padding: 3px 5px;
+    width: 1006px;
+    margin: 10px 27px;
+}
+.table2{
+    border: 2px solid black;
+    height: 130px;
+    padding: 3px 5px;
+    width: 1006px;
+    margin: 10px 27px;
+}
+.return{
+    border: none;
+    height: 36px;
+    margin: 14px 304px;
+    width: 64px;
+    display: block;
+    position: relative;
+    left: 690px;
+}
 .search{
-    position: absolute;
-    margin: -25px 26px;
-}
-input[type="text"]{
     border: none;
-    border-radius: 2px;
-    padding: 5px;
-}
-input[type="button"]{
-    padding: 11px 18px;
-    margin: 28px 1042px;
-    border: none;
-    border-radius: 9px;
-    background-color: rgb(31, 138, 231);
-}
-input[type="submit"]{
-    padding: 5px 3px;
-    margin: 9px 60px;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(31, 138, 231);
-}
-input[type="button"]:hover{
-    cursor: pointer;
-    background-color:  rgb(100, 177, 244);;}
-input[type="submit"]:hover{
-    cursor: pointer;
-    background-color:  rgb(100, 177, 244);
+    height: 60px;
+    padding: 0px 26px;
+    margin: 10px 0px;
+    width: 200px;
+    display: block;
+    position: relative;
+    right: auto;
 }
 table th{
     border-style: ridge;
     padding: 5px 25px;
 }
-.table1,.table2{
-    border: 2px solid black;
-    display: block;
-    width: 1112px;
-    height: 140px;
-    margin: 4px 10px;
-    overflow: scroll;
-}
-th{
-    padding: 2px 30px;
-} 
 table td{
     border-style: ridge;
     padding: 5px 30px;
 }
-.return{
-    padding: 5px 3px;
+input[type='submit']{
+    padding: 8px 13px;
     margin: 9px 60px;
     border: none;
     border-radius: 5px;
     background-color: rgb(31, 138, 231);
+}
+input[type='text']{
+    border: none;
+        border-radius: 2px;
+        padding: 5px;
+}
+input[type='submit']:hover{
+    cursor: pointer;
+        background-color:  rgb(100, 177, 244);
 }

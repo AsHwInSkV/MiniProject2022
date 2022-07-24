@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/borrowinside.css">
+    <link rel="stylesheet" href="css/borrowinside1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
@@ -31,7 +31,7 @@
         </nav>
     </header>
     <form action="">
-    <section class="table1">
+    <div class="table1">
         <table>
             <thead>
                 <th>MemberId</th>
@@ -48,9 +48,8 @@
             
             </tbody>
         </table>
-
-    </section>
-    <section class="table2">
+    </div>
+    <div class="table2">
         <table>
             <thead>
                 <th>BorrowBookId</th>
@@ -66,15 +65,15 @@
             
             </tbody>
         </table>
-    </section>
-    <div class="Return">
-        <input type="button" value="Return">
+    </div>
+    <div class="return">
+        <input type="submit" value="Return">
     </div>
     <div class="search">
         <input type="text" name="search" id="search" placeholder="Enter Book Barcode">
         <input type="submit" value="Search"> 
     </div>
-    <section class="table3">
+    <div class="table3">
         <table>
             <thead>
                 <th>BookBarcode</th>
@@ -90,7 +89,11 @@
             
             </tbody>
         </table>
-
+    
+    </div>
+    <div class="borrow">
+        <input type="submit" value="Borrow">
+    </div>
     </form>
 </body>
 </html>
