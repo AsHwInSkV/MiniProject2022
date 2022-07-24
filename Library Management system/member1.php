@@ -15,7 +15,7 @@
         <h1>Library Management System</h1>
         <nav>
             <a href="#">Home</a>
-            <a href="#">Members</a>
+            <a href="#" class="active">Members</a>
             <a href="#">Books</a>
             <a href="#">Admin</a>
             <a href="#">Member Attendence</a>
