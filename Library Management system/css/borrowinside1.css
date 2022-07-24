@@ -36,12 +36,19 @@ section{
 }
 .search{
     position: absolute;
-    margin: -60px 26px;
+    margin: -25px 26px;
 }
 input[type="text"]{
     border: none;
     border-radius: 2px;
     padding: 5px;
+}
+input[type="button"]{
+    padding: 11px 18px;
+    margin: 28px 1042px;
+    border: none;
+    border-radius: 9px;
+    background-color: rgb(31, 138, 231);
 }
 input[type="submit"]{
     padding: 5px 3px;
@@ -50,21 +57,31 @@ input[type="submit"]{
     border-radius: 5px;
     background-color: rgb(31, 138, 231);
 }
-
+input[type="button"]:hover{
+    cursor: pointer;
+    background-color:  rgb(100, 177, 244);;}
 input[type="submit"]:hover{
     cursor: pointer;
-    background-color:  rgb(100, 177, 244);;
+    background-color:  rgb(100, 177, 244);
 }
 table th{
     border-style: ridge;
     padding: 5px 25px;
 }
-.table{
+.table1,.table2{
     border: 2px solid black;
     display: block;
     width: 1112px;
     height: 140px;
-    margin: 82px 25px;
+    margin: 4px 10px;
+    overflow: scroll;
+}
+.table3{
+    border: 2px solid black;
+    display: block;
+    width: 1112px;
+    height: 140px;
+    margin: 4px 10px;
     overflow: scroll;
 }
 th{
@@ -73,5 +90,11 @@ th{
 table td{
     border-style: ridge;
     padding: 5px 30px;
-    overflow: scroll;
+}
+.return{
+    padding: 5px 3px;
+    margin: 9px 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(31, 138, 231);
 }

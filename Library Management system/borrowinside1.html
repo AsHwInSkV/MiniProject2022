@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/borrowinside1.css">
+    <link rel="stylesheet" href="css/borrowinside.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
@@ -30,10 +30,11 @@
             <a href="#">About Us</a>
         </nav>
     </header>
-    <section class="table">
+    <form action="">
+    <section class="table1">
         <table>
             <thead>
-                <th>UserId</th>
+                <th>MemberId</th>
                 <th>CollegeId</th>
                 <th>FirstName</th>
                 <th>LastName</th>
@@ -49,11 +50,31 @@
         </table>
 
     </section>
-    <section class="search">
+    <section class="table2">
+        <table>
+            <thead>
+                <th>BorrowBookId</th>
+                <th>UserId</th>
+                <th>BookId</th>
+                <th>DateBorrowed</th>
+                <th>DueDate</th>
+                <th>DateReturned</th>
+                <th>BorrowStatus</th>
+                <th>Operations</th>
+            </thead>
+            <tbody>
+            
+            </tbody>
+        </table>
+    </section>
+    <div class="Return">
+        <input type="button" value="Return">
+    </div>
+    <div class="search">
         <input type="text" name="search" id="search" placeholder="Enter Book Barcode">
         <input type="submit" value="Search"> 
-    </section>
-    <section class="table">
+    </div>
+    <section class="table3">
         <table>
             <thead>
                 <th>BookBarcode</th>
@@ -63,7 +84,6 @@
                 <th>BookCopies</th>
                 <th>PublisherName</th>
                 <th>ISBN</th>
-                <th>ISBN</th>
                 <th>Operations</th>
             </thead>
             <tbody>
@@ -71,6 +91,6 @@
             </tbody>
         </table>
 
-    </section>
+    </form>
 </body>
 </html>
