@@ -23,7 +23,7 @@
         <p>Username *</p>
         <p><input type="text" name="username" id="username" required size="30" ></p>
         <P>Password *</P>
-        <p><input type="password" name="password" id="passwords" required size="30"></p>
+        <p><input type="password" name="password" id="password" required size="30"></p>
         <p><input type="submit" id="button" value="Login"/></p>
         <p><hr width="290cm"></p>
         <h5><i style="font-size:10px" class="fa">&#xf02d;</i> LBS COLLEGE OF ENGINEERING KASARAGOD</h5>

@@ -8,20 +8,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/member1.css">
+    <style>
+        table th{
+    border-style: ridge;
+    padding: 5px 25px;
+}
+.table{
+    border: 2px solid black;
+    display: block;
+    width: 1177px;
+    height: 420px;
+    margin: 82px 25px;
+    overflow: scroll;
+}
+th{
+    padding: 2px 30px;
+} 
+table td{
+    border-style: ridge;
+    padding: 5px 30px;
+    overflow: hidden;
+}
+    </style>
     <title>Member</title>
 </head>
 <body>
     <header>
         <h1>Library Management System</h1>
         <nav>
-            <a href="#">Home</a>
-            <a href="#" class="active">Members</a>
-            <a href="#">Books</a>
-            <a href="#">Admin</a>
-            <a href="#">Member Attendence</a>
-            <a href="#">Borrow</a>
-            <a href="#">Borrowed Books</a>
-            <a href="#">Returned Books</a>
+        <a href="home.php" class="active">Home</a>
+            <a href="member1.php">Members</a>
+            <a href="book.php">Books</a>
+            <a href="admin.php">Admin</a>
+            <a href="admin_log.php">Admin Log</a>
+            <a href="issue_book.php">Borrow</a>
+            <a href="borrow_booklist.php">Borrowed Books</a>
+            <a href="return_booklist.php">Returned Books</a>
             <a href="#">About Us</a>
         </nav>
     </header>

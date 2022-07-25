@@ -11,25 +11,47 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/admin.css">
+    <style>
+        table th{
+    border-style: ridge;
+    padding: 5px 30px;
+}
+.table{
+    border: 2px solid black;
+    display: block;
+    width: 755px;
+    height: 420px;
+    margin: 82px 300px;
+    overflow: scroll;
+}
+th{
+    padding: 2px 33px;
+} 
+table td{
+    border-style: ridge;
+    padding: 2px 33px;
+   
+}
+    </style>
     <title>Admin</title>
 </head>
 <body>
     <header>
         <h1>Library Management System</h1>
         <nav>
-            <a href="">Home</a>
-            <a href="">Members</a>
-            <a href="#">Books</a>
-            <a href="" class="active">Admin</a>
-            <a href="#">Member Attendence</a>
-            <a href="#">Borrow</a>
-            <a href="#">Borrowed Books</a>
-            <a href="#">Returned Books</a>
+        <a href="home.php" class="active">Home</a>
+            <a href="member1.php">Members</a>
+            <a href="book.php">Books</a>
+            <a href="admin.php">Admin</a>
+            <a href="admin_log.php">Admin Log</a>
+            <a href="issue_book.php">Borrow</a>
+            <a href="borrow_booklist.php">Borrowed Books</a>
+            <a href="return_booklist.php">Returned Books</a>
             <a href="#">About Us</a>
         </nav>
     </header>
-    <form action="member.html">
-        <input type="submit" value="+Add Admin">
+    <form action="newadmin.php"  method="POST">
+    <input type="submit" name="submit" value="+Add Admin">
     </form>
     <section class="table">
         <table>
