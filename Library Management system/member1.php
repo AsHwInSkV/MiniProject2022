@@ -40,10 +40,10 @@ table td{
             <a href="member1.php">Members</a>
             <a href="book.php">Books</a>
             <a href="admin.php">Admin</a>
-            <a href="admin_log.php">Admin Log</a>
-            <a href="issue_book.php">Borrow</a>
-            <a href="borrow_booklist.php">Borrowed Books</a>
-            <a href="return_booklist.php">Returned Books</a>
+            <a href="member_attendance.php">Admin Log</a>
+            <a href="borrow.php">Borrow</a>
+            <a href="borrowinside.php">Borrowed Books</a>
+            <a href="borrowinside1.php">Returned Books</a>
             <a href="#">About Us</a>
         </nav>
     </header>
