@@ -24,6 +24,7 @@ include("db_connect.php");
             <a href="borrow_booklist.php">Borrowed Books</a>
             <a href="return_booklist.php">Returned Books</a>
             <a href="/barcode/index.php">Book Barcode</a>
+            <a href="login.php">LOG OUT</a>
         </nav>
     </header>
     <section class="knimbus">

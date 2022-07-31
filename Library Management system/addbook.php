@@ -25,6 +25,7 @@
             <a href="borrowinside.php">Borrowed Books</a>
             <a href="borrowinside1.php">Returned Books</a>
             <a href="/barcode/index.php">Book Barcode</a>
+            <a href="login.php">LOG OUT</a>
     </header>
     <section class="px">
         <h1 class="second">BOOK DETAILS</h1>
