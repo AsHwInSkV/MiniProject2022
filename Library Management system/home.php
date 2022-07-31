@@ -23,7 +23,7 @@ include("db_connect.php");
             <a href="issue_book.php">Borrow</a>
             <a href="borrow_booklist.php">Borrowed Books</a>
             <a href="return_booklist.php">Returned Books</a>
-            <a href="#">About Us</a>
+            <a href="/barcode/index.php">Book Barcode</a>
         </nav>
     </header>
     <section class="knimbus">

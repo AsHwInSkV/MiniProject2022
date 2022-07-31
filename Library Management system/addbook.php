@@ -16,15 +16,15 @@
     <header>
         <h1>Library Management System</h1>
         <nav>
-        <a href="home.php" class="active">Home</a>
+        <a href="home.php">Home</a>
             <a href="member1.php">Members</a>
-            <a href="book.php">Books</a>
+            <a href="book.php"  class="active">Books</a>
             <a href="admin.php">Admin</a>
             <a href="member_attendance.php">Admin Log</a>
             <a href="borrow.php">Borrow</a>
             <a href="borrowinside.php">Borrowed Books</a>
             <a href="borrowinside1.php">Returned Books</a>
-            <a href="#">About Us</a>
+            <a href="/barcode/index.php">Book Barcode</a>
     </header>
     <section class="px">
         <h1 class="second">BOOK DETAILS</h1>
@@ -80,7 +80,7 @@
                 </p>
             </div>
             <div>
-            <p><input type="submit" name="submit" value="Submit"></button>  <input type="submit" name="reset" value="Reset"></p>
+            <p><input type="submit" name="submit" value="Submit"></button>  <input type="reset" name="reset" value="Reset"></p>
         </form>
             </div>
         </div>

@@ -23,7 +23,7 @@
             <a href="borrow.php">Borrow</a>
             <a href="borrowinside.php">Borrowed Books</a>
             <a href="borrowinside1.php">Returned Books</a>
-            <a href="#">About Us</a>
+            <a href="/barcode/index.php">Book Barcode</a>
         </nav>
     </header>
     <h1>Add Admin</h1>

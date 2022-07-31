@@ -22,15 +22,15 @@ include("db_connect.php");
     <header>
         <h1>Library Management System</h1>
         <nav>
-        <a href="home.php" class="active">Home</a>
+        <a href="home.php">Home</a>
             <a href="member1.php">Members</a>
             <a href="book.php">Books</a>
             <a href="admin.php">Admin</a>
             <a href="member_attendance.php">Admin Log</a>
-            <a href="borrow.php">Borrow</a>
+            <a href="borrow.php" class="active">Borrow</a>
             <a href="borrowinside.php">Borrowed Books</a>
             <a href="borrowinside1.php">Returned Books</a>
-            <a href="#">About Us</a>
+            <a href="/barcode/index.php">Book Barcode</a>
         </nav>
     </header>
     <section class="table1">
