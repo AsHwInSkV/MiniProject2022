@@ -28,10 +28,10 @@
             <a href="member1.php">Members</a>
             <a href="book.php" class="active">Books</a>
             <a href="admin.php">Admin</a>
-            <a href="member_attendance.php">Admin Log</a>
-            <a href="borrow.php">Borrow</a>
-            <a href="borrowinside.php">Borrowed Books</a>
-            <a href="borrowinside1.php">Returned Books</a>
+            <a href="admin_log.php">Admin Log</a>
+            <a href="issue_book.php">Borrow</a>
+            <a href="borrow_booklist.php">Borrowed Books</a>
+            <a href="return_book.php">Returned Books</a>
             <a href="/barcode/index.php">Book Barcode</a>
             <a href="login.php">LOG OUT</a>
         </nav>
